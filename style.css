@@ -1,0 +1,174 @@
+body {
+  font-family: 'Quattrocento', serif;
+  font-weight: 300;
+}
+
+header {
+  padding: 20px 0;
+}
+
+header .row,
+footer .row {
+  display: flex;
+  align-items: center;
+}
+
+header h1 {
+  font-weight: 700;
+  margin: 0;
+}
+
+header nav {
+  display: flex;
+  justify-content: flex-end;
+}
+
+header p {
+  padding: 0 20px;
+  margin: 0;
+}
+
+header .japanese-flag {
+  height: 70px;
+}
+
+.jumbotron {
+  display: flex;
+  align-items: center;
+  background-image: url('img/japanese-background.png');
+  background-size: cover;
+  padding-right: 120px;
+  height: 400px;
+  text-shadow: 0.25px 0.25px 0.25px #000000;
+}
+
+.jumbotron p {
+  line-height: 200%;
+  font-weight: 400;
+  font-size: 30px;
+  text-shadow: 2px 2px 2px white;
+}
+
+section .row img {
+  margin: 0 0 30px;
+  width: 100%;
+}
+
+.btn.btn-primary {
+  border-radius: 2px;
+  border: 0px;
+  color: #fbd1d5;
+  text-shadow: none;
+  background-color: #ffffff;
+}
+
+.btn.btn-primary:hover {
+  color: #ffffff;
+  background-color: #fbd1d5;
+}
+
+.btn-secondary {
+  background-color: #E8DFE0;
+  color: #ffffff;
+  margin: 0 0 30px;
+}
+
+footer {
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin-top: 5em;
+  margin-right: 2em;
+}
+
+footer p{
+  font-size: 12px;
+  text-align: right;
+}
+
+.popular-recipes {
+  background-color: #E55126;
+  padding: 1em 3em 2em 2em;
+  margin: 3em;
+  color: whitesmoke;
+  border-radius: 10px;
+}
+
+#popular-recipes-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.recipes-button {
+  padding: 0.75em 1.25em;
+  background-color: whitesmoke;
+  opacity: 0.9;
+  width: 10em;
+  color: black;
+  cursor: pointer;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.popular-recipes ul {
+  list-style: none;
+  padding: 0;
+}
+
+.references ul {
+  list-style: none;
+  padding: 0;
+}
+
+.references li {
+  line-height: 300%;
+}
+
+.recipes {
+  margin: 1em 0;
+}
+
+.active {
+  background-color: grey;
+  color: whitesmoke;
+}
+
+.recipes a{
+  color: white;
+  font-size: 1.5em;
+  text-decoration: none;
+}
+
+.recipes img{
+  border-radius: 10px;
+}
+
+#recipe-name {
+  margin-right: 20px;
+  width: 250px;
+}
+
+#recipe-search {
+  margin-bottom: 30px;
+}
+
+.ast {
+  color: red;
+}
+
+#intro {
+  font-size: 1.5em;
+  line-height: 1.8em;
+  text-align: left;
+}
+
+#findMore {
+  margin-bottom: 50px;
+}
+
+@media only screen and (max-width: 426px) {
+    ul.dropdown-menu {
+        min-width: 100px;
+    }
+}
